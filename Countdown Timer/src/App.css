@@ -1,0 +1,103 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #111827; /* dark blue/gray */
+  font-family: "Poppins", sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  width: 450px;
+  background: #1f2937;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.input-box {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #d1d5db;
+}
+
+input[type="datetime-local"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 48%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+}
+
+.start-btn {
+  background: #10b981; /* green */
+}
+
+.reset-btn {
+  background: #ef4444; /* red */
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.timer-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-box {
+  background: #374151;
+  width: 90px;
+  padding: 12px 0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.time-box h2 {
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.time-box p {
+  font-size: 14px;
+  color: #d1d5db;
+}
